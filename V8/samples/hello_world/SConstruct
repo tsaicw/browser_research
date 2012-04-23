@@ -1,0 +1,4 @@
+#env = Environment(CPPPATH = ['../v8/include']);
+
+Program('hello_world', 'hello_world.cc', LIBS=['v8', 'pthread'], LIBPATH='/home/tsaicw/workspace/open_source/v8', CPPPATH=['/home/tsaicw/workspace/open_source/v8/include']);
+
